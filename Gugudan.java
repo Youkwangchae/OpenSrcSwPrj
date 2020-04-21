@@ -15,11 +15,12 @@ public class Gugudan {
 			for (int i = 1; i <= 9; i++) {
 				System.out.println(j + " * " + i + " = " + j * i);
 			}
-		} else {
+		} else if(num>0){
 			System.out.println(num + "단을 출력합니다.");
 			for (int i = 1; i <= 9; i++) {
 				System.out.println(num + " * " + i + " = " + num * i);
 			}
-		}
+		}else
+			System.out.println("구구단 출력 불가");
 	}
 }
